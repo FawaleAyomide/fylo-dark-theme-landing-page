@@ -17,8 +17,8 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/FawaleAyomide/fylo-dark-theme-landing-page).
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/FawaleAyomide/fylo-dark-theme-landing-page).
+- [Live Site URL](https://your-live-site-url.com)
 
 ### Built with
 
