@@ -31,4 +31,3 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 - Website - [Fawale Ayomide](https://my-portfolio-swart-xi.vercel.app/).
 - Frontend Mentor - [@FawaleAyomide](https://www.frontendmentor.io/profile/FawaleAyomide)
 - Twitter - [@fawaleoladele](https://www.twitter.com/fawaleoladele)
- section entirely.**
