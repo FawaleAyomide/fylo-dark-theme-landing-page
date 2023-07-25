@@ -7,13 +7,6 @@
             }
         }
     }
-    .main-cont::after{
-        background: url(/images/bg-curvy-mobile.svg) no-repeat center;
-        background-size: cover;
-        bottom: 19.5rem !important;
-        height: 58vh !important;
-        width: 100%;
-    }
     
     // section-1
     .sect-1-cont{
@@ -28,12 +21,6 @@
             z-index: 165 !important;
             }
         }
-    }
-    .main-cont::after{
-        background: url(/images/bg-curvy-desktop.svg) no-repeat center;
-        background-size: cover;
-        bottom: 19.5rem !important;
-        height: 65vh !important;
     }
     
     // section-1
@@ -90,13 +77,6 @@
                 width: 100%;
             }
         }
-    }
-    .main-cont::after{
-        background: url(/images/bg-curvy-mobile.svg) no-repeat center;
-        background-size: cover;
-        bottom: 16.5rem !important;
-        height: 30vh !important;
-        width: 100%;
     }
     
     // section-1
