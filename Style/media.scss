@@ -81,7 +81,7 @@
         .main-text{
             max-width: 100% !important;
             margin: auto;
-            padding: 0 2rem;
+            padding: 0 1rem 5rem 1rem;
 
             .main-head{
                 width: 100%;
@@ -101,18 +101,9 @@
     
     // section-1
     .sect-1-cont{
-        padding-top: 8rem;
-        margin-top: -16.7rem;
-
-        .sect-1-grid{
-            
-        }
-        .sect-1-lead{
-            padding: 0 2rem !important;
-            width: 100%;
-        }
+        margin-top: -7.5rem !important;
+        grid-template-columns: auto !important;
     }
-
 }
 
 @media (max-width: 1150px){
@@ -182,6 +173,31 @@
         }
     }
 }
+@media (max-width: 864px){
+    .sect-1-container{
+        // top: -9rem;
+    }
+    .sect-1-bg{
+        .desktop-bg{
+            display: none;
+        }
+        .mobile-bg{
+            display: block;
+            width: 100%;
+            background-size: cover !important;
+            height: 22.7%;
+            position: absolute;
+            // z-index: 2;
+            top: -18rem;
+            left: 0;
+        }
+    }
+
+    .sect-1-cont{
+        margin-top: -3.5rem;
+        grid-template-columns: auto !important;
+    }
+}
 @media (max-width: 724px){
     .sect-2-cont{
         flex-direction: column !important;
@@ -214,12 +230,17 @@
     }
 }
 @media (max-width: 596px){
-    .sect-1-cont{
-        padding: 6rem 0 !important;
-        .sect-1-head{
-            width: 100% !important;
+    .sect-1-bg{
+        .mobile-bg{
+            height: 24%;
+            top: -16.5rem;
+            left: 0;
         }
-        .sect-1-lead{
+    }
+    .sect-1-cont{
+        padding: 3rem 1.5rem;
+
+        .sect-1-lead {
             width: 100% !important;
         }
     }
@@ -241,9 +262,33 @@
     }
 
 }
-@media (max-width: 350px){
-    .sect-1-cont{
-        padding: 10rem 0 !important;
+@media (max-width: 540px){
+    .sect-1-bg{
+        .mobile-bg{
+            height: 25%;
+            top: -20.5rem;
+            left: 0;
+        }
+    }
+
+}
+@media (max-width: 495px){
+    .sect-1-bg{
+        .mobile-bg{
+            height: 20%;
+            top: -19.1rem;
+            left: 0;
+        }
+    }
+
+}
+@media (max-width: 362px){
+    .sect-1-bg{
+        .mobile-bg{
+            height: 15%;
+            top: -16.8rem;
+            left: 0;
+        }
     }
 
 }
